@@ -1,5 +1,5 @@
 import logging
-from ravi.utils.logger import CustomAdapter, fetch_env_logger
+from src.utils.logger import CustomAdapter, fetch_env_logger
 
 
 def get_trace_logger(trace_id: str):
