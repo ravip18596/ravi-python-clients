@@ -38,3 +38,8 @@ logging.basicConfig(format='%(asctime)s,%(msecs)d %(levelname)-8s [%(filename)s.
 
 logger = logging.getLogger(__name__)
 logger = CustomAdapter(logger, {'trace_id': None})
+
+
+def get_trace_logger(trace_id: str):
+    new_logger = logging.getLogger(__name__)
+    new_logger = CustomAdapter(new_logger, {'trace_id': trace_id})
