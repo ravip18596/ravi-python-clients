@@ -8,10 +8,18 @@ Assortment of python client for personal or business use
 
 ## Windows Installation
 
-```bash
+```commandline
 py -m venv venv
-souce venv/Scripts activate
+source venv\Scripts\activate
 py -m pip install python-prakashravip1
+```
+
+## Linux/ Mac Installation
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install python-prakashravip1
 ```
 
 ## Example
