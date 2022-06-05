@@ -5,7 +5,6 @@ description = "Common Python Utility and Client Tools"
 authors = ["ravipnsit <prakashravip1@gmail.com>", "Ravi Prakash <ravip18596@gmail.com>"]
 license = "Apache-2.0"
 packages = [
-    { include = "python-prakashravip1" },
     { include = "src" },
 ]
 readme = "README.md"
