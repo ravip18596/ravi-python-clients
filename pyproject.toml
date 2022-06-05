@@ -1,6 +1,23 @@
-[build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
+[tool.poetry]
+name = "python-prakashravip1"
+version = "1.0.4"
+description = "Common Python Utility and Client Tools"
+authors = ["ravipnsit <prakashravip1@gmail.com>", "Ravi Prakash <ravip18596@gmail.com>"]
+license = "Apache-2.0"
+packages = [
+    { include = "src" },
 ]
-build-backend = "setuptools.build_meta"
+readme = "README.md"
+repository = "https://github.com/ravip18596/ravi-python-clients"
+homepage = "https://github.com/ravip18596/ravi-python-clients"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+delta-spark = "1.2.1"
+
+[tool.poetry.dev-dependencies]
+twine = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
