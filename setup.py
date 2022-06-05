@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="python-prakashravip1",
-    version="1.0.1",
+    version="1.0.3",
     author="Ravi Prakash",
     author_email="ravip18596@github.com",
     description="Common Python Utility and Client Tools",
