@@ -130,3 +130,6 @@ dmypy.json
 
 # IDEA jetbrains
 .idea/
+
+# SPARK
+spark-warehouse/
