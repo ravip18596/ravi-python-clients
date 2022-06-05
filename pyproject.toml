@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-prakashravip1"
-version = "1.0.3"
+version = "1.0.4"
 description = "Common Python Utility and Client Tools"
 authors = ["ravipnsit <prakashravip1@gmail.com>", "Ravi Prakash <ravip18596@gmail.com>"]
 license = "Apache-2.0"
